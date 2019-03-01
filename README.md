@@ -7,18 +7,7 @@ The Aarhus University Signal Processing group, in collaboration with University 
 
 The goal of the competition is to create a classifier capable of determining a plant's species from a photo. The list of species is as follows:
 
-Black-grass
-Charlock
-Cleavers
-Common Chickweed
-Common wheat
-Fat Hen
-Loose Silky-bent
-Maize
-Scentless Mayweed
-Shepherds Purse
-Small-flowered Cranesbill
-Sugar beet
+![Species](samples.png)
 
 # Model Training History 
 Transfer Learning based on ResNet pre-trained on ImageNet dataset and fine tune using two unfrozen layers.
@@ -26,4 +15,6 @@ Transfer Learning based on ResNet pre-trained on ImageNet dataset and fine tune 
 ![Model Training History](performances_epochs.png)
 
 # Confusion Matrix / Validation Dataset
+
+The model achieved good performances overall (~91% f1 score after 30 epochs) apart for two classes Blackgrass and Loose Silky-bent which are very similar plants.
 ![Normalised Confusion Matrix](normalised_confusion_matrix.png)
