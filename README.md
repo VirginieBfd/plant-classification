@@ -20,7 +20,10 @@ Shepherds Purse
 Small-flowered Cranesbill
 Sugar beet
 
+# Model Training History 
+Transfer Learning based on ResNet pre-trained on ImageNet dataset and fine tune using two unfrozen layers.
+
+![Model Training History](performances_epochs.png)
+
 # Confusion Matrix / Validation Dataset
-
-![Normlised Confusion Matrix](https://postimg.cc/6y9wwYRk)
-
+![Normalised Confusion Matrix](normalised_confusion_matrix.png)
