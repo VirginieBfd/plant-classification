@@ -19,3 +19,8 @@ Scentless Mayweed
 Shepherds Purse
 Small-flowered Cranesbill
 Sugar beet
+
+# Confusion Matrix / Validation Dataset
+
+![Normlised Confusion Matrix](https://postimg.cc/6y9wwYRk)
+
