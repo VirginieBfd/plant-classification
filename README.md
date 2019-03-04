@@ -13,7 +13,7 @@ The goal of the competition is to create a classifier capable of determining a p
 Transfer Learning based on ResNet pre-trained on ImageNet dataset and fine tune using two unfrozen layers.
 Parameters:
 - Model = ResNet50
-- # Unfrozen Layers = 2
+- Unfrozen Layers = 2
 - Dropout = 0.5
 - Optimiser = Adam
 - Learning rate = 0.0001
@@ -30,4 +30,5 @@ Parameters:
 The model achieved good performances overall (~94% f1 score at the best of the 50 epochs). The test performed a 0.9345% f1 score on Kaggle. 
 
 The model struggled to classify these 3 classes as they have similar shape caracteristics: Common Wheat, Blackgrass and Loose Silky-bent.
+
 ![Normalised Confusion Matrix](normalised_confusion_matrix.png)
